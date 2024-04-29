@@ -2,6 +2,11 @@
 
 
 def linearSearch(array, n, x):
+    # go through the array from start to finish
+    for i in range(n):
+        if array[i] == x:
+            return i
+    return -1
 
     
 
